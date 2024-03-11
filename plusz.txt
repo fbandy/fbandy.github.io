@@ -1,0 +1,4 @@
+Alap színek az oldalon:
+
+Napsárga:  rbg(255, 208, 0)
+Élénkzöld:   rgb(40, 167, 69)
