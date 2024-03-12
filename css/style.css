@@ -16,7 +16,7 @@ h3  {
 #skills-header {
   color: blue;
 }
-p {
+.content {
   color: grey;
   font-size: 24px;
   font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -25,6 +25,13 @@ p {
   line-height: 40px;
   font-weight: 300;
 }
+.bold {
+  font-weight: bold;
+  color: black;
+}
 img {
   width: 200px;
+}
+.img-div {
+  background-color: lightblue;
 }
