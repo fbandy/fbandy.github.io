@@ -7,9 +7,14 @@ h1 {
   font-weight: 700;
   text-align: justify;
 }
-h3 {
-  color: brown;
+h3  {
   font-family: 'Roboto', sans-serif;
+}
+#bio-header {
+  color: brown;
+}
+#skills-header {
+  color: blue;
 }
 p {
   color: grey;
