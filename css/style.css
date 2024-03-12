@@ -2,10 +2,14 @@
 
 
 h1 {
-  color: lightcoral;
+  color: coral;
   font-family: "Comic Neue", cursive;
-  font-weight: 400;
+  font-weight: 700;
   text-align: justify;
+}
+h3 {
+  color: brown;
+  font-family: 'Roboto', sans-serif;
 }
 p {
   color: grey;
@@ -13,6 +17,8 @@ p {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   text-align: justify;
   text-transform: none;
+  line-height: 40px;
+  font-weight: 300;
 }
 img {
   width: 200px;
