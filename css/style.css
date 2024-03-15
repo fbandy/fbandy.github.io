@@ -30,7 +30,9 @@ h3  {
   color: black;
 }
 img {
-  width: 200px;
+  width: 14.4%;
+  box-shadow: 3px 3px 5px black;
+  margin: 1%;
 }
 .img-div {
   background-color: lightblue;
