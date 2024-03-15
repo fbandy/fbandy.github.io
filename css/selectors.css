@@ -19,4 +19,20 @@ body {
 .login-div input[class$="red"] {
     border: 1px solid red;
 }
+.login-div button:hover {
+    box-shadow: 1px 1px 2px #c0c0c0;
+}
+.login-div input:focus {
+    box-shadow: 1px 1px 2px #c0c0c0;
+    border: none;
+}
 
+ul li:first-child {
+    color: red;
+}
+ul li:nth-child(2) {
+    text-decoration: underline;
+}
+ul li:last-child {
+    background-color: lightcoral;
+}
