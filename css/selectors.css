@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f0f0;
+}
+.login-div {
+    padding: 15px;
+    border: 1px solid #525252;
+    box-shadow: 0 0 2px #1f1f1f;
+    display: inline-block;
+}
+.login-div input {
+    display:block;
+    margin-bottom: 7px;
+}
+.login-div input[type="email"] {
+    border: 1px solid blue;
+}
+.login-div input[name="password"] {
+    border: 1px solid red;
+}
