@@ -11,9 +11,12 @@ body {
     display:block;
     margin-bottom: 7px;
 }
-.login-div input[type="email"] {
+/* ha az osztályok közt elől szerepel a blue akkor ^ -jel*/
+.login-div input[class^="blue"] {
     border: 1px solid blue;
 }
-.login-div input[name="password"] {
+/* ha az osztályok közt hátul szerepel a red akkor $ -jel, ha mindgy hol akkor a * -jel */
+.login-div input[class$="red"] {
     border: 1px solid red;
 }
+
