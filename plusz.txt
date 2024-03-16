@@ -2,3 +2,15 @@ Alap színek az oldalon:
 
 Napsárga:  rbg(255, 208, 0)
 Élénkzöld:   rgb(40, 167, 69)
+
+# Tools used #
+* HTML, CSS and JavaScript
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [Font Awesome 5](https://fontawesome.com/)
+* [google map](https://www.embed-map.com/)
+* [Box Icons](https://boxicons.com/)
+* [Font Google](https://fonts.google.com/)
+* [Images](https://purepng.com/)
+* [Images](https://www.freepik.com/)
+* [Swiper](https://swiperjs.com/)
+* [Clip Path Marker](https://bennettfeely.com/clippy/)
