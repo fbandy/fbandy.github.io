@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 228, 196);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(239, 239, 238);
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 45rem;
+  background-image: url("../img/pick15.jpg");
+  background-size: cover;
+  border-bottom: rgba(116, 115, 115, 0.8) solid 0.1rem;
+  box-shadow: 2px 4px 12px 0 rgba(116, 115, 115, 0.8);
+}
+
+.nav {
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(26, 26, 26, 0.5);
+  border-bottom: 0.015rem solid rgb(226, 218, 211);
+}
+
+.nav .logo {
+  font-family: "Akaya Kanadaka", cursive;
+  padding: 0.5rem 0 0 0.8rem;
+  font-size: 2.5rem;
+  -webkit-text-stroke: 0.055rem rgb(70, 87, 116);
+  -webkit-text-fill-color: transparent;
+}
+.nav .logo strong {
+  color: rgb(112, 139, 184);
+  font-size: 2.5rem;
+  -webkit-text-stroke: 0.055rem rgb(70, 87, 116);
+  -webkit-text-fill-color: transparent;
+  font-family: "Akaya Kanadaka", cursive;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 1.6rem 0;
+}
+
+.nav ul li {
+  padding: 0.15rem 1rem 0 1rem;
+  list-style: none;
+}
+
+.nav ul li a {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  color: rgb(226, 218, 211);
+  border: rgb(226, 218, 211) solid 0.02rem;
+  padding: 0.4rem 1rem;
+}
+
+.nav ul li a:hover {
+  background-color: rgb(226, 218, 211);
+  color: rgb(70, 87, 116);
+}
+
+.wellcom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 8rem 0;
+}
+
+.wellcom h1 {
+  font-size: 4.5rem;
+  font-weight: 400;
+  /* letter-spacing: 0.15rem; */
+}
+
+.wellcom h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+}
+
+.wellcom a {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  /* border: rgb(226, 218, 211) solid 0.02rem; */
+  padding: 0.5rem 1rem;
+}
+
+.wellcom .fa-solid {
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  border: rgb(226, 218, 211) solid 0.02rem;
+}
+
+.wellcom .fa-solid:hover {
+  background-color: rgb(226, 218, 211);
+  color: rgb(70, 87, 116);
+}
+
+.doboz-container {
+  height: 55rem;
+  text-align: center;
+}
+
+.doboz-container h2 {
+  font-size: 2rem;
+  padding: 3rem 0 1rem 0;
+  color: rgb(70, 87, 116);
+}
+
+.doboz-container h3 {
+  font-size: 1.3rem;
+  padding: 1rem 0 2rem 0;
+  color: rgb(70, 87, 116);
+}
+
+.doboz-container .row {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  height: 42rem;
+  border: rgba(26, 26, 26, 0.6) solid 0.1rem;
+  border-radius: 0.4rem;
+  box-shadow: 2px 4px 12px 0 rgba(116, 115, 115, 0.8);
+  padding: 0.5rem;
+  text-align: center;
+  background-color: rgba(172, 172, 172, 0.6);
+  position: relative;
+}
+
+.card img {
+  height: 12rem;
+}
+
+.card h3 {
+  color: rgb(70, 87, 116);
+  font-size: 1.6rem;
+  padding-top: 1.5rem;
+}
+
+.card p {
+  color: rgb(70, 87, 116);
+  font-size: 1rem;
+  text-align: left;
+}
+
+.card a {
+  color: rgb(70, 87, 116);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+}
+
+.card .link a {
+  position: absolute;
+  text-align: center;
+  bottom: 2%;
+}
+
+.card i {
+  color: rgb(70, 87, 116);
+}
+
+.rolunk-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.rolunk h2 {
+  font-size: 2rem;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  color: rgb(70, 87, 116);
+}
+
+.rolunk-container img {
+  width: 100%;
+  height: 45rem;
+  border: rgba(26, 26, 26, 0.6) solid 0.1rem;
+  border-radius: 0.4rem;
+  box-shadow: 4px 4px 12px 0 rgba(116, 115, 115, 0.8);
+}
+
+.rolunk-pick {
+  width: 50%;
+}
+
+.rolunk-text {
+  width: 50%;
+}
+
+.rolunk-container .rolunk-text p {
+  font-size: 1.1rem;
+  color: rgb(70, 87, 116);
+}
+
+.rolunk p {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  padding: 2rem 0 0 2rem;
+  color: rgb(70, 87, 116);
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.galeria h2 {
+  color: rgb(70, 87, 116);
+  font-size: 2rem;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.galeria-box {
+  width: 100%;
+  padding: 1.4rem 0;
+  background-image: url("../img/pick1570.jpg");
+  border-radius: 0.4rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: rgba(26, 26, 26, 0.6) solid 0.1rem;
+  box-shadow: 4px 4px 12px 0 rgba(116, 115, 115, 0.8);
+}
+
+.galeria-box .carousel {
+  width: 500px;
+  margin: 0 auto;
+  border: rgba(26, 26, 26, 0.6) solid 0.1rem;
+  border-radius: 0.4rem;
+  box-shadow: 4px 4px 12px 0 rgba(240, 240, 240, 0.8);
+}
+
+.kapcsolat-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: start;
+  width: 95%;
+  height: 36rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+  background-color: rgba(172, 172, 172, 0.6);
+  border: rgba(26, 26, 26, 0.6) solid 0.1rem;
+  border-radius: 0.4rem;
+  box-shadow: 4px 4px 12px 0 rgba(116, 115, 115, 0.8);
+  padding-bottom: 1rem;
+}
+.kapcsolat {
+  width: 40%;
+  padding: 1rem 0;
+}
+.h2-kapcs h2 {
+  color: rgb(70, 87, 116);
+  font-size: 2rem;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+}
+.form-group {
+  padding: 0.5rem 0;
+}
+.form-group label {
+  color: rgb(70, 87, 116);
+}
+.form-group i {
+  color: rgb(70, 87, 116);
+}
+.kapcsolat-form h4 {
+  text-align: center;
+  color: rgb(70, 87, 116);
+  padding: 1rem 0 0 0;
+}
+.kapcsolat-form ul li {
+  color: rgb(70, 87, 116);
+  list-style: none;
+}
+.kapcsolat-form i {
+  color: rgb(70, 87, 116);
+}
+.kapcsolat-box .terkep {
+  width: 40%;
+  height: 28.125rem;
+  padding: 1.5rem 0 0 0;
+}
+
+.go-top-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  background-color: rgba(207, 206, 206, 0.6);
+  border: 0.15rem solid rgb(70, 87, 116);
+  /* display: none; */
+  justify-content: center;
+  align-items: center;
+}
+
+.go-top-btn img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer {
+  height: 3.5rem;
+  padding: 0.6rem 0 0 0;
+  margin-top: 2rem;
+  border-top: rgba(26, 26, 26, 0.6) solid 0.1rem;
+  color: rgb(70, 87, 116);
+  background-color: rgba(230, 229, 229, 0.435);
+  text-align: center;
+}
+
+#year {
+  color: rgb(70, 87, 116);
+}
